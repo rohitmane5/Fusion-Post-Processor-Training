@@ -1,0 +1,3 @@
+function TestMerge() {
+  writeBlock("TestMerge", "This is a test of the merge function.");
+}
