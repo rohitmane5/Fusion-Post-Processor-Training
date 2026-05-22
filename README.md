@@ -116,21 +116,6 @@ The folder `sample CNC files` contains `.cnc` setups you can use in **Fusion 360
 - `Setup for 4x.cnc`, `5x 3+2.cnc`, `5x simultaneous.cnc`
 - `workpieceMaterial.cnc`
 
-Typical workflow:
-
-1. Copy your working `.cps` into your Fusion **Posts** folder (or add the exercise folder as a post search path).
-2. In Fusion, open or create a CAM setup and assign your edited FANUC post.
-3. Post-process using a sample `.cnc` or the course benchmark parts from **CAM Samples > Post Processors**.
-4. Review the generated NC code on the machine or in a simulator; use **dry run** / **single block** when proving on real hardware.
-
----
-
-## Using edited posts in Fusion 360
-
-1. In Fusion, go to **Manage** (or **Utilities**) → **Post Library** / **Open Post Folder** to find your personal posts directory.
-2. Copy your modified `fanuc_*.cps` into that folder (rename if needed so Fusion lists it clearly).
-3. In the CAM workspace, when posting, select your post from the list.
-4. Adjust post **properties** in the post dialog as required for each exercise (many exercises focus on property defaults and formatting in the `.cps` file itself).
 
 ---
 
@@ -148,8 +133,6 @@ Typical workflow:
 - [ ] Located `Exercise_Files\Day-01\` and opened `fanuc_Before.cps` for the current exercise
 - [ ] Made the required edits in VS Code (or your editor)
 - [ ] Compared your file with `fanuc_After.cps`
-- [ ] Copied the post to Fusion and tested with a sample CNC / CAM setup
-- [ ] Verified output with dry run or simulation before running on a machine
 
 ---
 
